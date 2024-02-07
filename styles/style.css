@@ -1,0 +1,80 @@
+.thumbnail {
+    width: 100%;
+}
+
+.channel-profile {
+    width: 22px;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.vdo-title {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 9px;
+    line-height: 13px;
+    word-spacing: -0.8px;
+}
+
+.vdo-preview {
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+
+.channel-name,
+.vdo-stats {
+    font-size: 7.5px;
+    color: rgb(96, 96, 96);
+}
+.channel-name{
+    margin-bottom: 2px;
+}
+
+.vdo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 26px;
+    margin-top: 51px;
+}
+
+@media (max-width: 870px){
+    .vdo-grid{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+@media (max-width: 600px){
+    .vdo-grid{
+        grid-template-columns: 1fr 1fr ; 
+    }
+}
+
+
+@media (max-width: 300px){
+    .vdo-grid{
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+.vdo-image{
+    position: relative;
+}
+.vdo-time{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: 7.5px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 7px;
+    right: 4px;
+}
+
