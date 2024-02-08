@@ -36,7 +36,7 @@
 
 .vdo-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 26px;
     margin-top: 51px;
@@ -44,18 +44,11 @@
 
 @media (max-width: 870px){
     .vdo-grid{
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr; 
     }
 }
 
-@media (max-width: 600px){
-    .vdo-grid{
-        grid-template-columns: 1fr 1fr ; 
-    }
-}
-
-
-@media (max-width: 300px){
+@media (max-width: 700px){
     .vdo-grid{
         grid-template-columns: 1fr; 
     }
