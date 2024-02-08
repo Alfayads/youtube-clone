@@ -117,3 +117,9 @@
     height: 13px;
 }
 
+@media (max-width : 1000px) {
+    .right-section{
+        display: none;
+    }
+}
+
